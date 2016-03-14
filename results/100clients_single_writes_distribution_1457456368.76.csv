@@ -1,0 +1,5 @@
+"Name","# requests","50%","66%","75%","80%","90%","95%","98%","99%","100%"
+"GET Select 6h of data from temperature for 5 devices",133,300,320,440,500,560,600,670,720,754
+"GET Select last value from all measurements for all devices",113,1900,2000,2100,2200,2300,2400,2500,2600,2674
+"POST Write one measurement for one device",12092,7,9,13,28,130,210,280,340,605
+"None Total",12338,7,10,15,39,150,250,360,580,2674

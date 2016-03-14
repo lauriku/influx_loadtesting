@@ -1,0 +1,5 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"GET","Select 6h of data from temperature for 5 devices",227,0,460,540,286,2374,564569,0.71
+"GET","Select last value from all measurements for all devices",245,0,2500,5766,1183,31466,718087,0.76
+"POST","Write one measurement for one device",21518,0,13,124,3,6275,0,66.84
+"None","Total",21990,0,14,191,3,31466,13828,68.30
