@@ -51,7 +51,7 @@ single_writes_melted <- melt(requests_single_writes[,c("Min.response.time", "Ave
                                                         "Max.response.time", "test")])
 
 # Plot the data
-ggplot(melted, aes(reorder(test,value),value)) 
+ggplot(single_writes_melted, aes(reorder(test,value),value)) 
             + geom_bar(aes(fill =variable), stat="identity", position="dodge") 
             + ylab("Response time / ms") 
             + theme(axis.title.x=element_blank(), text = element_text(size=7), legend.title=element_blank()) 
