@@ -1,5 +1,5 @@
 # Performance testing InfluxDB with Locust
-This repo is simply a collection of files I used for performance testing InfluxDB. It is not well documented, but for the purpose of openness, all files and results are available.
+This repo is simply a collection of files I used for performance testing InfluxDB, and wrote a blog post about at https://gofore.com/performance-of-influxdb-low-end-hardware/. It is not well documented, but for the purpose of openness, all files and results are available.
 ## Files
 ```
 .
